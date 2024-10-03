@@ -1,0 +1,28 @@
+IKEA
+IKEA FOOD
+IKEA MILTON KEYNES 185
+VAT: GB 527773320
+Address4
+
+Qty Name Price Total £
+1 Meatballs 10 3.80 3.80
+1 Fish & Chips Adult 4.95 4.95
+1 Petit Pain - White 0.50 0.50
+1 Wine rose 2.80 2.80
+1 Wine red 2.80 2.80
+
+Net Subtotal: 12.37
+
+Tax:
+20%VAT 2.48
+
+Total to Pay: 14.85
+
+Received:
+
+VISA 14.85
+
+Visa Credit
+************9529
+Start: 
+06/04/2016 11:21

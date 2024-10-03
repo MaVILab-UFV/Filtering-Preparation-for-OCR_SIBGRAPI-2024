@@ -1,0 +1,27 @@
+Akira
+385 Rt 9 W
+Gienmont, NY 12077
+518-434-8880
+www.akirasushigroup.com
+
+2018-11-16 18:58:34
+
+#37 PICKUP
+Leo
+
+Phil
+QTY ITEM Amt
+1 Hi. Chk Steak (K) $22.95
+Med
+Noodle $2.00
+1 Sushi Deluxe $20.75
+1 Glenmont Roll $15.95
+1 Philly R $6.50
+2 Sp Tuna R $13.00
+1 Salmon R $5.50
+
+Subtotal: $86.65
+Tax: $6.93
+Total: $93.58
+
+Unpaid

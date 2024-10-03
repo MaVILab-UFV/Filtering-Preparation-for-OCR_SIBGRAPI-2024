@@ -1,0 +1,145 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+
+express_expense:
+  type: PartitionedDataSet
+  path: data/01_raw/express_expense
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+adjustment_dataset:
+  type: PartitionedDataSet
+  path: data/01_raw/Adjustment-Dataset
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+adjustment_dataset_after:
+  type: PartitionedDataSet
+  path: data/01_raw/Adjustment-Dataset-After
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+labels:
+  type: PartitionedDataSet
+  path: data/01_raw/Labels
+  dataset: text.TextDataSet
+  layer: raw
+
+homography_points:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/homography_points.csv
+  save_args:
+    index: False
+
+homography_points_segmentation:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/homography_points_segmentation.csv
+  save_args:
+    index: False
+
+homography_points_segmentation_batched_hull:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/homography_points_segmentation_batched_hull.csv
+  save_args:
+    index: False
+
+homography_points_segmentation_batched_hough:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/homography_points_segmentation_batched_hough.csv
+  save_args:
+    index: False
+
+homography_boxes:
+  type: PartitionedDataSet
+  path: data/08_reporting/homography_boxes
+  dataset: pillow.ImageDataSet
+  layer: reporting
+
+homography_boxes_segmentation:
+  type: PartitionedDataSet
+  path: data/08_reporting/homography_boxes_segmentation
+  dataset: pillow.ImageDataSet
+  layer: reporting
+
+homography_boxes_segmentation_batched:
+  type: PartitionedDataSet
+  path: data/08_reporting/homography_boxes_segmentation_batched
+  dataset: pillow.ImageDataSet
+  layer: reporting
+
+mask:
+  type: json.JSONDataSet
+  filepath: data/01_raw/masks3.json
+
+masks:
+  type: PartitionedDataSet
+  dataset: sibigrapi2023.extras.datasets.numpy_dataset.NumpyZipDataSet
+  path: data/01_raw/masks
+  filename_suffix: ".npz"
+
+masks_batched:
+  type: PartitionedDataSet
+  dataset: sibigrapi2023.extras.datasets.numpy_dataset.NumpyZipDataSet
+  path: data/01_raw/masks_batched
+  filename_suffix: ".npz"
+
+image_perturbation_metrics:
+  type: PartitionedDataSet
+  path: data/08_reporting/image_perturbation_metrics
+  dataset:
+    type: pandas.CSVDataSet
+    save_args:
+      index: False
+  filename_suffix: ".csv"
+
+image_perturbation_report:
+  type: pandas.CSVDataSet
+  filepath: data/08_reporting/image_perturbation_report.csv
+
+distorted:
+  type: PartitionedDataSet
+  path: data/01_raw/Distorted
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+distorted_small:
+  type: PartitionedDataSet
+  path: data/01_raw/Distorted_small
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+express_small:
+  type: PartitionedDataSet
+  path: data/01_raw/express_small
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+express_test:
+  type: PartitionedDataSet
+  path: data/01_raw/express_test
+  dataset: pillow.ImageDataSet
+  layer: raw
+
+pipeline_sample_images:
+  type: PartitionedDataSet
+  path: data/08_reporting/pipeline_samples
+  dataset: pillow.ImageDataSet
+  layer: reporting
+
+methods_original_ocr_text:
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/methods_original_ocr_text.json
+
+methods_distorted_ocr_text:
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/methods_distorted_ocr_text.json
+
+ablation_ocr_text:
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/ablation_ocr_text.json
+
+ablation_ocr_distorted_text:
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/ablation_ocr_distorted_text.json

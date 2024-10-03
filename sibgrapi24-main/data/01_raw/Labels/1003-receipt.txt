@@ -1,0 +1,27 @@
+El Gran Mar de Plata
+10325 Hammocks Blvd
+(305) 386-6638
+
+Server: Kayra Station: 10
+
+Order #: 8262 Dine In
+Bar Tab: Bar Tab
+
+>> SETTLED <<
+
+1 Miller Lite 5.00
+SUB TOTAL: 5.00
+
+Sales Tax: 0.35
+
+TOTAL: $5.35
+
+Cash Tendered: 5.35
+
+Balance: $0.00
+
+>> Ticket #: 35 <<
+Created: 4/20/2017 10:13:17 PM
+SETTLED: 4/20/2017 10:13:25 PM
+
+THANK YOU!

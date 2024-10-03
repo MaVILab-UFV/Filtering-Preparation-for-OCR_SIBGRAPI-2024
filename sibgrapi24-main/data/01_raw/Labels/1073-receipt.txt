@@ -1,0 +1,29 @@
+Subway#44969-0 Phone 626-585-9999
+625 S Fair Oaks Ave
+Pasadena, CA, 91105
+Served by: 41 5/1/2019 2:25:37 pm
+Term ID-Trans# 1/A-297424
+
+Qty Size Item Price
+1 #SMS $11.99 Any 2 FtLong 11.99
+1 12' -Setak & Chse Sub
+1 12' -B.M.T. Sub
+
+Sub Total 11.99
+Sales Tax (10.25%) 1.23
+Total (Eat In) 13.22
+Credit Card 13.22
+Change 0.00
+Approval No: 051140
+Reference No: 912121113552
+Card Issuer: Visa
+Account No: ************0002
+Acquired: Contract_EMV
+Amount: $13.22
+Application: CHASE VISA
+AID: A0000000031010
+TVR: 0080008000
+TSI: E800
+Date/Time: 5/1/2019 2:25:37 PM
+
+CUSTOMER COPY

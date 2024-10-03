@@ -1,0 +1,27 @@
+Grotto Pizzeria & Tavern
+2441 Van Horn
+Trenton, MI 48183
+
+Server: Trinity Station: 2
+Order #: 22037 Dine In
+Table: 11 Guests: 2
+
+1 Ultra 2.50
+1 Bells Draft 5.00
+1 Cheese Bread 6.00
+1 APPS OUT FIRST 0.00
+1 Caprese 7.00
+1 SALAD OUT FIRST 0.00
+1 Reg Carnivore (s) 12.50
+Pepper Rings (s)
+1 Reg Marguerita (s) 10.00
+
+SUB TOTAL: 43.00
+Tax 1: 2.58
+
+TOTAL: 45.58
+
+>> Ticker #: 128 <<
+5/12/2017 4:48:12 PM
+
+THANK YOU!
