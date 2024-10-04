@@ -76,9 +76,9 @@ By following these steps, the environment will be configured and the project can
 
 ### Authors
 
-* [Manoela Auad](https://github.com/ManoelaWerneck) - BsC student - UFV - manoela.auad@ufv.br
-* Sarah Alves - BsC student - UFV - sarah.c.alves@ufv.br
-* Gabriel Kakizaki - BsC student - UFV -  gabriel.kakizaki@ufv.br
+* [Manoela Auad](https://github.com/ManoelaWerneck) - BSc. student - UFV - manoela.auad@ufv.br
+* Sarah Alves - BSc. student - UFV - sarah.c.alves@ufv.br
+* Gabriel Kakizaki - BSc. student - UFV -  gabriel.kakizaki@ufv.br
 * Julio Reis - Professor at Universidade Federal de Viçosa (UFV) - jreis@ufv.br
 * [Michel Silva](https://michelmelosilva.github.io/) - Professor at Universidade Federal de Viçosa (UFV) - michel.m.silva@ufv.br
 
