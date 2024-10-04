@@ -1,5 +1,3 @@
-# sibigrapi2023
-
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.18.6`.
